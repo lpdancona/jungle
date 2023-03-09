@@ -92,3 +92,15 @@
 .item-price {
   color: rgba(0, 130, 29, 0.8);
 }
+.orders-show {
+  .order-summary {
+    .prod-image {
+      img {
+        max-width: 100px;
+      }
+    }
+    td {
+      padding: 40px;
+    }
+  }
+}
