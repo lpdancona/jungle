@@ -89,3 +89,15 @@
     }
   }
 }
+.orders-show {
+  .order-summary {
+    .prod-image {
+      img {
+        max-width: 100px;
+      }
+    }
+    td {
+      padding: 40px;
+    }
+  }
+}
