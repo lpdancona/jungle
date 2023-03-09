@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/new'
+  get 'users/create'
   get 'about/index'
   root to: 'products#index'
 
@@ -73,5 +75,20 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  Rails.application.routes.draw do
+  get 'users/new'
+  get 'users/create'
+    # Other routes here...
+  
+    get '/register', to: 'users#new'
+    post '/register', to: 'users#create'
+    get '/login', to: 'sessions#new'
+    post '/login', to: 'sessions#create'
+    delete '/logout', to: 'sessions#destroy'
+    get '/signup', to: 'users#new'
+    resources :users, only: [:new, :create]
+    resources :sessions, only: [:new, :create, :destroy]
+  end
+
   get '/about', to: 'about#index', as: 'about'
 end

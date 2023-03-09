@@ -111,3 +111,17 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+.login-link,
+.logout-link {
+  color: white;
+  text-decoration: none;
+}
+
+.login-link:hover,
+.logout-link:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
+.login-msg {
+  margin-left: 40px;
+}
