@@ -70,7 +70,7 @@
     </div>
     <div class="login-msg">
     <% if current_user %>
-  Logged in as <%= current_user.email %>. <%= link_to "Log out", logout_path, method: :delete, class: "logout-link" %>
+  Logged in as <%= current_user.first_name %>. <%= link_to "Log out", logout_path, method: :delete, class: "logout-link" %>
 <% else %>
   <%= link_to "Log in", login_path, class: "login-link" %> | <%= link_to "Sign up", signup_path, class: "login-link" %>
 <% end %>
