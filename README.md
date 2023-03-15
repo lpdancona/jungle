@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.Jungle is a website that offers a wide variety of plants for sale. With its user-friendly interface and seamless navigation, Jungle makes it easy for plant lovers to browse and purchase their favorite plants online.
 
 ## Setup
 
@@ -29,3 +29,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Final Product
+
+!["Browse our categories"]()
+!["Check all of our products"]()
