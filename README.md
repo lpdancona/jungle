@@ -32,5 +32,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product
 
-!["Browse our categories"]()
-!["Check all of our products"]()
+!["Browse our categories"](https://github.com/lpdancona/jungle/blob/master/docs/categories.png?raw=true)
+!["Check out all of our products"](https://github.com/lpdancona/jungle/blob/master/docs/products.png?raw=true)
